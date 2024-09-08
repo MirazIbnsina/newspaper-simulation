@@ -30,16 +30,19 @@ This web-based simulation tool allows users to input various parameters and run 
    - Amount of Daily Newspapers
    - Per Newspaper Cost & Sell rate
    - Salvage Rate of Scrap Paper
+     
 ![image](https://github.com/user-attachments/assets/a27d5fa5-ee17-4514-9b77-a0a812bd8f9b)
 
 
 2. On the second page, enter the probability distribution for demand, formated as given numbers and newsday types and Random digits.
+   
 ![image](https://github.com/user-attachments/assets/cf0902ef-a3c2-490c-bbcd-bcc4f7760ea5)
 
 
-3. The final page will display the simulation results, including:
+4. The final page will display the simulation results, including:
    - Distribution of Newspaper Demanded
    - Random-Digit Assignment for Type of Newsday
    - Day-by-day simulation results
    - Total Revenue, Lost Profit, Salvage Value, and Overall Profit
+     
 ![image](https://github.com/user-attachments/assets/902de57a-012b-4b8b-bfb4-abb02d48e0d6)
