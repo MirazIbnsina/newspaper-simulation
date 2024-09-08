@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Simulation Newspaper Selling</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 500px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h3 {
+            font-weight: 600;
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+        }
+        label {
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 5px;
+            color: #555;
+        }
+        .form-control {
+            border-radius: 10px;
+            padding: 12px;
+            font-size: 16px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+        }
+        .btn-primary {
+            background-color: #007aff;
+            border-color: #007aff;
+            font-size: 18px;
+            font-weight: 600;
+            border-radius: 12px;
+            padding: 12px 20px;
+            width: 100%;
+        }
+        .btn-primary:hover {
+            background-color: #005ecb;
+            border-color: #005ecb;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <h3>Simulation Newspaper Selling</h3>
+
+    <form action="step2.php" method="POST">
+
+        <div class="row">
+            <div class="col-md-12">
+
+                <label>Row of Newspaper Demanded and Demands</label>
+                <input type="text" class="form-control" name="nDemand" required>
+
+                <label>Amount of Daily Newspapers</label>
+                <input type="text" class="form-control" name="tNewspaper" required>
+
+                <label>Per Newspaper Cost</label>
+                <input type="text" class="form-control" name="pnCost" required>
+
+                <label>Per Newspaper Sale Rate</label>
+                <input type="text" class="form-control" name="saleRate" required>
+
+                <label>Salvage Rate of Scrap Paper</label>
+                <input type="text" class="form-control" name="sRate" required>
+
+            </div>
+        </div>
+
+        <input type="hidden" name="action_type" value="step2"> <br>
+        <input type="submit" name='submit' value="Next Step" class='btn btn-primary'>
+
+    </form>
+
+</div>
+
+</body>
+</html>
+ 
